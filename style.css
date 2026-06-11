@@ -673,3 +673,17 @@ a, button{
 .project-card:hover::before{
     transform:translateX(100%);
 }
+
+
+.tech-logo {
+    height: 40px;
+    width: 40px;
+}
+
+.logobox {
+    display: flex;
+    gap: 1rem;
+    justify-self: center;
+    justify-content: space-around;
+}
+
