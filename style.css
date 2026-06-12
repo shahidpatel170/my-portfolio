@@ -687,3 +687,70 @@ a, button{
     justify-content: space-around;
 }
 
+#contact-btn {
+    anchor-name: --contact;
+}
+#contact-btn:hover{
+    transform:
+    none;
+}
+#popover-wrapper:popover-open {
+    position: absolute;
+    position-anchor: --contact;
+    position-area: top;
+    transition: 0.4s ease-in-out 1s ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,12,50, 0);
+    padding: 1.4rex;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 1rem;
+}
+#contact-popover {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    gap: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(lavenderblush, whitesmoke) transparent 100%;
+    padding: 1rem;
+    backdrop-filter:blur(50px);
+    box-shadow:var(--shadow);
+
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out 0.1s;
+    color: black;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item:hover{
+    transform: translateY(-5px);
+    color: royalblue;
+
+}
+
+.contact-item img {
+    height: 35px;
+    width: 35px;
+}
+#marker {
+    display: inline-flex;
+    padding: 15px;
+    transform: rotate(45deg) translateY(-14px) translateX(-7px) ;
+    background: whitesmoke;
+
+}
+
