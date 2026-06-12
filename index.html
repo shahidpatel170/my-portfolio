@@ -390,7 +390,28 @@ const developer = {
         </section>
 
         <!-- CONTACT -->
-
+		<!-- CONTACT -->
+        <div id="popover-wrapper" popover>
+        	<div id="contact-popover">
+            	<a class="contact-item" href="mailto:shahidupatel@gmail.com">
+                	<img alt="img" src="assets/email.webp">
+                	<b> Email </b>
+            	</a>
+            	<a class="contact-item" href="https://wa.me/+918951213162">
+                	<img alt="img" src="assets/whatsapp.webp">
+                	<b> WhatsApp </b>
+            	</a>
+            	<a class="contact-item" href="https://www.linkedin.com/in/shahid-patel-310/">
+                	<img alt="img" src="assets/linkedin.png">
+                	<b> LinkedIn </b>
+            	</a>
+            	<a class="contact-item" href="https://github.com/shahidpatel170/">
+                	<img alt="img" src="assets/github.webp">
+                	<b> Github </b>
+            	</a>
+        	</div>
+        	<span id="marker"></span>
+        </div>
         <section id="contact" class="contact">
 
             <div class="container">
@@ -404,10 +425,9 @@ const developer = {
                     collaborations and full-time opportunities.
                 </p>
 
-                <a href="mailto:shahidupatel@gmail.com"
-                    class="btn-primary">
+                <button id="contact-btn" class="btn-primary" popovertarget="popover-wrapper">
                     Contact Me
-                </a>
+                </button>
 
             </div>
 
